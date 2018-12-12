@@ -3,8 +3,8 @@ Exam 1, problem 2.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Joseph Law.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -44,8 +44,36 @@ def test_factor_sum():
     ###########################################################################
     # WRITE YOUR TESTS BELOW HERE:
     ###########################################################################
-
-
+    #Test 1
+    expected = 6
+    actual = factor_sum(5)
+    print()
+    print('Expected: ', expected)
+    print('Actual:   ', actual)
+    # Test 2
+    expected = 7
+    actual = factor_sum(4)
+    print()
+    print('Expected: ', expected)
+    print('Actual:   ', actual)
+    # Test 3
+    expected = 10
+    actual = factor_sum(12)
+    print()
+    print('Expected: ', expected)
+    print('Actual:   ', actual)
+    # Test 4
+    expected = 5
+    actual = factor_sum(13)
+    print()
+    print('Expected: ', expected)
+    print('Actual:   ', actual)
+    # Test 5
+    expected = 9
+    actual = factor_sum(10)
+    print()
+    print('Expected: ', expected)
+    print('Actual:   ', actual)
 def factor_sum(n):
     """
     Given a positive integer n,
@@ -78,3 +106,4 @@ def factor_sum(n):
     ###########################################################################
     # DO NOT modify the above line of code!
     ###########################################################################
+main()
